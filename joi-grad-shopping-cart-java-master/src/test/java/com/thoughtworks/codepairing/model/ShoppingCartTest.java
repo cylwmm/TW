@@ -19,8 +19,6 @@ public class ShoppingCartTest {
     public void setUp() throws Exception {
         customer = new Customer("test");
     }
-
-
     @Test
     public void shouldCalculatePriceWithNoDiscount() {
         List<Product> products = asList(new Product(PRICE, "", PRODUCT));
