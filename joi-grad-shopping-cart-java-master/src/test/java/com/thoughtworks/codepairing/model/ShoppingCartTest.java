@@ -12,6 +12,7 @@ public class ShoppingCartTest {
 
     public static final int PRICE = 100;
     public static final String PRODUCT = "Product";
+
     Customer customer;
 
     @Before
