@@ -15,7 +15,6 @@ public class ShoppingCartTest {
 
     Customer customer;
 
-
     @Before
     public void setUp() throws Exception {
         customer = new Customer("test");
