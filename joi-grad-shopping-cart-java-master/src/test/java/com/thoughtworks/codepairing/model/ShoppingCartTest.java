@@ -27,6 +27,7 @@ public class ShoppingCartTest {
         Order order = cart.checkout();
 
         assertEquals(100.0, order.getTotalPrice(), 0.0);
+
     }
 
     @Test
