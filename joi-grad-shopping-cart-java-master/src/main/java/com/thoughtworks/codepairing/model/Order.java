@@ -1,7 +1,9 @@
 package com.thoughtworks.codepairing.model;
 
 public class Order {
+    //总金额
     private double totalPrice;
+    //积分
     private int loyaltyPoints;
 
     public Order(double totalPrice, int loyaltyPointsEarned) {
